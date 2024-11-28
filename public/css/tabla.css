@@ -1,0 +1,226 @@
+/* Estilos para la tabla */
+#contenedor_principal {
+    position: relative; /* Cambia a 'relative' en lugar de 'absolute' */
+    margin-top: 100px; /* Ajusta este valor según lo que necesites */
+    margin-bottom: 50px; /* Puedes agregar un margen inferior para controlar la distancia al fondo */
+    padding-bottom: 20px; /* Espacio adicional en la parte inferior */
+    width: 90%; /* Para asegurarte de que se mantenga dentro del ancho de la página */
+    margin-left: auto;
+    margin-right: auto; /* Centrará el contenedor horizontalmente */
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+    
+  }
+
+  td {
+    white-space: nowrap; /* Evita que el texto haga salto de línea */
+    overflow: hidden;    /* Oculta el desbordamiento de contenido */
+    text-overflow: ellipsis; /* Muestra "..." si el texto es muy largo */
+    max-width: 200px;    /* Ajusta el ancho máximo de la celda según lo necesites */
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+
+/* CSS botón */
+.button_stylish {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button_stylish:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button_stylish:hover {
+  background-color: #2c974b;
+}
+
+.button_stylish:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button_stylish:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button_stylish:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.button_4 {
+  background-color: #ff3232;
+}
+
+.button_4:hover {
+  background-color: #ff0000;
+}
+
+.button_4:focus {
+  box-shadow: rgb(169, 0, 0) 0 0 0 3px;
+  outline: none;
+}
+
+.button_4:disabled {
+  background-color: #ff7171;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button_4:active {
+  background-color: #ff0000;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.button_5 {
+  background-color: #188fff;
+}
+
+.button_5:hover {
+  background-color: #0084ff;
+}
+
+.button_5:focus {
+  box-shadow: rgb(0, 102, 255) 0 0 0 3px;
+  outline: none;
+}
+
+.button_5:disabled {
+  background-color: #55c9ff;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button_5:active {
+  background-color: #008cff;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.button_6 {
+  background-color: #e4ff15;
+  color: black;
+}
+
+.button_6:hover {
+  background-color: #b7cf00;
+}
+
+.button_6:focus {
+  box-shadow: rgb(117, 167, 0) 0 0 0 3px;
+  outline: none;
+}
+
+.button_6:disabled {
+  background-color: #98cb00;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button_6:active {
+  background-color: #aac000;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.button_7 {
+  background-color: #b115ff;
+  color: black;
+}
+
+.button_7:hover {
+  background-color: #8700cf;
+}
+
+.button_7:focus {
+  box-shadow: rgb(122, 0, 152) 0 0 0 3px;
+  outline: none;
+}
+
+.button_7:disabled {
+  background-color: #e23cff;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button_7:active {
+  background-color: #7000c0;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+/* Botones swap */
+.swap {
+  background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(255,132,0,1) 0%, rgba(228,255,0,1) 100%);
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.swap-active {
+  box-shadow: 0 0 8px 2px orange;
+}
+
+.swap img {
+  width: 30px;
+  padding: 5px;
+}
+
+/* Específico para editar */
+#nombre_presupuesto {
+  float:right;
+  color: black;
+}
+
+/* Estilos datalist */
+datalist {
+  width: 600px;
+}
